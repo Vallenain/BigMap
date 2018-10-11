@@ -1,9 +1,10 @@
-<nav class="navbar__wrapper">
+<nav class="navbar__wrapper mat-elevation-z6">
   <mat-toolbar>
     <a class="navbar__brand" href="/">
       <img src="/assets/bigmap_icon.png">
     </a>
-    <a mat-button>Matches</a>
-    <a mat-button>Classement</a>
+    <a mat-button routerLink="/map" routerLinkActive="active">Carte</a>
+    <a mat-button routerLink="/data" routerLinkActive="active">Data</a>
+    <a mat-button routerLink="/admin" routerLinkActive="active">Admin</a>
   </mat-toolbar>
 </nav>
